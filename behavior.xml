@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BEHAVIOR>
+
+<!--Main configurations-->
+
+<!--Time -->
+<time_format value=">  HH:mm"/>
+<time_format_separator value="@"/>
+
+<!--Device Name-->
+<device_format value="%u%n%n%n%n"/>
+
+<!--RAM-->
+<ram_format value=">  %avmb MB"/>
+
+<!--Battery-->
+<battery_format value=">  %(Charging: /)%v%"/>
+<battery_medium value="50"/>
+<battery_low value="15"/>
+
+<!--Storage-->
+<storage_format value=">  %iavgb GB"/>
+
+<!--Data-->
+<network_info_format value=">  %(%ip4i/%[Mobile Data: %d3/No Internet access])"/>
+
+<!--CLI Input / Output-->
+<input_format value="%p %i"/>
+<output_format value="%o %n"/>
+<session_info_format value="%u@%d:%p"/>
+<show_alias_content value="false"/>
+<show_launch_history value="false"/>
+<clear_after_cmds value="-1"/>
+<clear_after_seconds value="30"/>
+<max_lines value="-1"/>
+<enable_app_launch value="true"/>
+<app_launch_format value="--&gt; %a"/>
+<app_installed_format value="App installed: %p"/>
+<app_uninstalled_format value="App uninstalled: %p"/>
+
+<!--Something--> 
+<auto_show_keyboard value="false"/>
+<auto_scroll value="true"/>
+<show_hints value="false"/>
+<orientation value="1"/>
+
+<!--Ignored / Boring / Disabled--> 
+
+<!--Songs-->
+<random_play value="true"/>
+<songs_folder value=""/>
+<songs_from_mediastore value="true"/>
+<enable_music value="false"/>
+
+<!--Notes-->
+<notes_sorting value="0"/>
+<notes_allow_link value="true"/>
+
+<!--Paths-->
+<external_storage_path value=""/>
+<home_path value="/storage/emulated/0"/>
+
+<!--Various functions-->
+<double_tap_lock value="true"/>
+<double_tap_cmd value=""/>
+<max_optional_depth value="2"/>
+<network_info_update_ms value="3500"/>
+
+<!--Notification system-->
+<tui_notification value="false"/>
+<tui_notification_title value="T-UI"/>
+<tui_notification_subtitle value="T-UI is running"/>
+<tui_notification_click_cmd value=""/>
+<tui_notification_click_showhome value="true"/>
+<tui_notification_lastcmds_size value="5"/>
+<tui_notification_lastcmds_updown value="true"/>
+<tui_notification_priority value="0"/>
+
+<!--Clicking-->
+<long_click_vibration_duration value="100"/>
+<long_click_duration value="700"/>
+<click_commands value="true"/>
+<long_click_commands value="true"/>
+<append_quote_before_file value="false"/>
+<optional_values_separator value="/"/>
+
+<!--Some settings-->
+<alias_param_marker value="%"/>
+<alias_param_separator value=","/>
+<alias_replace_all_markers value="true"/>
+<multiple_cmd_separator value=";"/>
+<alias_content_format value="%a --&gt; [%v]"/>
+
+</BEHAVIOR>

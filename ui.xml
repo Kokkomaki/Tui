@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI>
+
+<!--Font-->
+<system_font value="false"/>
+
+<!--Font size--> 
+<ram_size value="13"/>
+<battery_size value="13"/>
+<device_size value="13"/>
+<time_size value="13"/>
+<storage_size value="13"/>
+<network_size value="13"/>
+<notes_size value="13"/>
+<input_output_size value="13"/>
+
+<!--Module Activation-->
+<input_bottom value="true"/>
+<show_ram value="true"/>
+<show_device_name value="true"/>
+<show_battery value="true"/>
+<show_network_info value="true"/>
+<show_storage_info value="true"/>
+<show_notes value="false"/>
+<enable_battery_status value="true"/>
+<show_time value="true"/>
+
+<!--Module Vertical-Position-->
+<device_index value="0"/>
+<ram_index value="3"/>
+<battery_index value="2"/>
+<time_index value="1"/>
+<storage_index value="4"/>
+<network_index value="5"/>
+<notes_index value="6"/>
+
+<!--Module Horizontal-Position-->
+<status_line0_alignment value="-1"/>
+<status_line1_alignment value="-1"/>
+<status_line2_alignment value="-1"/>
+<status_line3_alignment value="-1"/>
+<status_line4_alignment value="-1"/>
+<status_line5_alignment value="-1"/>
+<status_line6_alignment value="-1"/>
+
+<!--Something Fabulous-->
+<system_wallpaper value="true"/>
+<fullscreen value="true"/> 
+<username value="(=^ ◡ ^=)"/>
+<deviceName value="Cat"/>
+
+<!--Command Line-->
+<input_prefix value=">>"/>
+<input_root_prefix value="#"/>
+<show_enter_button value="false"/>
+<show_session_info value="true"/>
+<ignore_bar_color value="false"/>
+<show_app_installed value="true"/>
+<show_app_uninstalled value="true"/>
+
+<!--Margins-->
+<left_margin_mm value="5"/>
+<right_margin_mm value="5"/>
+<top_margin_mm value="7"/>
+<bottom_margin_mm value="7"/>
+
+<!--Notes-->
+<notes_header value="%( --- Notes : %c ---%n/No notes)"/>
+<notes_footer value="%(%n --- ----- ---/)"/>
+<notes_divider value="%n"/>
+
+</UI>
